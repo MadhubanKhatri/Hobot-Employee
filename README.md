@@ -14,16 +14,17 @@ This is a RESTful API for managing employee records with features including:
 ## Project Structure
 
 ```
-├── api/                 # API app
-│   ├── models.py        # Employee model
-│   ├── serializers.py   # DRF serializers
-│   ├── views.py         # API viewsets
-│   ├── urls.py          # URL routing
-│   └── tests.py         # Test cases
-├── settings.py          # Django settings
-├── urls.py              # Main URL config
-└── manage.py            # Django CLI
-└── README.md
+│   ├── api/                 # API app
+│   │   ├── models.py        # Employee model
+│   │   ├── serializers.py   # DRF serializers
+│   │   ├── views.py         # API viewsets
+│   │   ├── urls.py          # URL routing
+│   │   └── tests.py         # Test cases
+│   ├── emp_api/
+│   │   ├── settings.py          # Django settings
+│   │   ├── urls.py              # Main URL config
+│   └── manage.py            # Django CLI
+│   └── README.md
 ```
 
 ## Setup Instructions
